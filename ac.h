@@ -39,7 +39,7 @@ ac_result_t ac_match_longest_l(ac_t*, const char *str, unsigned int len) AC_EXPO
  * return-value.
  */
 int ac_match2(ac_t*, const char *str, unsigned int len) AC_EXPORT;
-int ac_match3(ac_t*, const char *str, unsigned int len, int *pattern_idx, int *match_begin, int *match_end) AC_EXPORT;
+int ac_match3(ac_t*, const char *str, unsigned int len) AC_EXPORT;
 
 void ac_free(void*) AC_EXPORT;
 

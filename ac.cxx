@@ -32,7 +32,7 @@ ac_match2(ac_t* ac, const char* str, unsigned int len) {
     return r.match_begin;
 }
 extern "C" int
-ac_match3(ac_t* ac, const char *str, unsigned int len, int *pattern_idx){
+ac_match3(ac_t* ac, const char *str, unsigned int len){
     ac_result_t r = _match((buf_header_t*)(void*)ac, str, len);
     return r.pattern_idx;
 }
